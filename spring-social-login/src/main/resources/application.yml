@@ -1,0 +1,18 @@
+kakao:
+  api:
+    clientId: "clientId"
+    accessTokenUri: "https://kauth.kakao.com/oauth/token"
+    meUri: "https://kapi.kakao.com/v2/user/me"
+
+apple:
+  api:
+    accessTokenUri: "https://appleid.apple.com/auth/token"
+    publicKeyUri: "https://appleid.apple.com/auth/keys"
+
+google:
+  api:
+    clientIosId: "clientId 입력 apps.googleusercontent.com"
+    clientAndroidId: "clientId 입력 apps.googleusercontent.com"
+
+# https://whitepaek.tistory.com/60
+# https://whitepaek.tistory.com/61
