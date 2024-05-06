@@ -1,6 +1,5 @@
 kakao:
   api:
-    clientId: "clientId"
     accessTokenUri: "https://kauth.kakao.com/oauth/token"
     meUri: "https://kapi.kakao.com/v2/user/me"
 
