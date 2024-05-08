@@ -1,20 +1,20 @@
 spring:
   mail:
     default-encoding: UTF-8
-    host: smtp.gmail.com
-    port: 587
+    host: smtp.gmail.com # stmp 서버 호스트
+    port: 587 # stmp 서버 포트
     username: gmail 입력
     password: 앱 비밀번호 입력
     protocol: smtp
     properties:
       mail:
         smtp:
-          auth: true
+          auth: true # 사용자 인증 시도 여부
           connectiontimeout: 10000
-          timeout: 10000
+          timeout: 10000 # socket read timeout (ms)
           writetimeout: 10000
           starttls:
-            enable: true
+            enable: true # starttls 활성화 여부
           debug: true
 
 
